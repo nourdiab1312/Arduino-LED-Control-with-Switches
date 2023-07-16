@@ -16,17 +16,17 @@ void loop()
  Reading=analogRead(A0);
   analogWrite(12,Reading/4);
    Reading=analogRead(A1);
-  analogWrite(11,Reading/4);
+  analogWrite(7,Reading/4);
   
  /* digitalWrite(12,HIGH);
   delay(Reading);
   digitalWrite(12,LOW);
   delay(Reading);*/
   
-  /* digitalWrite(11,HIGH);
+   digitalWrite(11,HIGH);
   delay(Reading);
   digitalWrite(11,LOW);
-  delay(Reading);*/
+  delay(Reading);
   
    digitalWrite(10,HIGH);
   delay(Reading);
@@ -43,10 +43,10 @@ void loop()
   digitalWrite(8,LOW);
   delay(Reading);
   
-   digitalWrite(7,HIGH);
+  /* digitalWrite(7,HIGH);
   delay(Reading);
   digitalWrite(7,LOW);
-  delay(Reading);
+  delay(Reading);*/
   
    
   
